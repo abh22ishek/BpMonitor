@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_alignParentTop="true"
+    android:id="@+id/include"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgBackKey"
+        android:padding="0dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/back_key"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/back"
+
+
+        />
+
+    <com.bpl.customfonts.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeStatus"
+        android:padding="5dp"
+        android:text="@string/welcome_status"
+        app:fontname="centralSansLight"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+
+        />
+
+    <!--<View
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:background="@color/white"
+        android:layout_margin="5dp"
+
+        android:layout_alignBottom="@+id/imgBackKey"
+        android:layout_toEndOf="@+id/imgBackKey"
+        android:id="@+id/view" />-->
+
+    <com.bpl.customfonts.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/base_header_title"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        app:fontname="centralSansXBold"
+        android:id="@+id/base_header_title"
+        android:layout_centerVertical="true"
+        android:visibility="visible"
+        android:gravity="center"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settings"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/settings"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/settings" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menu"
+        android:contentDescription="@string/settings"
+        android:src="@mipmap/menu"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imgBackKey"
+        android:layout_marginStart="41dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/help"
+        android:contentDescription="@string/settings"
+        android:src="@mipmap/help"
+        android:layout_alignParentTop="true"
+       android:layout_toRightOf="@+id/menu"
+        android:layout_marginLeft="54dp" />
+</RelativeLayout>
+

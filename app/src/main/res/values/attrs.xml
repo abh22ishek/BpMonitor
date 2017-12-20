@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTextView">
+
+        <attr name="fontname" format="enum">
+            <enum name="centralSansXBold" value="1" />
+            <enum name="centralSansLight" value="2" />
+            <enum name="centralSansBook" value="3" />
+            <enum name="avantGarde" value="4" />
+            <enum name="avangami" value="5" />
+            <enum name="arial" value="6"/>
+
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,244 @@
+<resources>
+    <string name="app_name">BplBpMonitor</string>
+    <string name="back_key">Navigate to Back Screen</string>
+    <string name="dummy_no">54</string>
+    <string name="dummy_unit">mmHg</string>
+    <string name="base_header_title">Header Title</string>
+    <string name="bluetooth">Bluetooth Indicator</string>
+    <string name="memory">Memory</string>
+    <string name="stop">Stop</string>
+    <string name="bt">Bluetooth</string>
+    <string name="sys_kpa">SYS kPa</string>
+    <string name="dia_kpa">DIA kPa</string>
+    <string name="dia_press">Diastolic Blood Pressure(mm Hg)</string>
+    <string name="sys_press">Systolic Pressure(mm Hg)</string>
+
+    <string name="sys_mhg">SYS mmHg</string>
+    <string name="dia_mhg">DIA mmHg</string>
+
+
+    <string name="chart">Chart</string>
+    <string name="del">Delete</string>
+    <string name="report">Report</string>
+    <string name="data">Data</string>
+    <string name="date">Date</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+
+
+    <string name="pul">PUL /min</string>
+    <string name="bpm">BPM</string>
+    <string name="mm_hg">mm Hg</string>
+    <string name="kpa">kPa</string>
+    <string name="pul_rate">Pulse Rate</string>
+    <string name="per_min">per Min</string>
+    <string name="normal">Normal</string>
+    <string name="pre_hypertension">PreHypertension</string>
+    <string name="hypertension">Hypertension</string>
+    <string name="bt_connected">Bluetooth Connected</string>
+    <string name="bt_disconnect">Bluetooth Disconnected</string>
+    
+    <string name="settings">Settings</string>
+    <string name="rec_saved">Current Record Saved</string>
+    <string name="save">Save</string>
+    <string name="start">Start</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="comment">Comment</string>
+    <string name="measurement">Measurement in Progress</string>
+    <string name="gen_knowledge">General Knowledge</string>
+    <string name="bp_general_knowledge">The American Heart Association recommends home monitoring
+        for all people with high blood pressure to help the healthcare provider determine
+        whether treatments are working. Home monitoring (self-measured blood pressure)
+        is not a substitute for regular visits to your physician. If you have been prescribed
+        medication  to lower your blood pressure, don\'t stop taking your medication without
+        consulting your doctor, even if your blood pressure readings are in the normal range during home monitoring.\n\n
+
+Choosing a home blood pressure monitor\n\n
+<b>The American Heart Association recommends an automatic, cuff-style, bicep (upper-arm) monitor.</b>\n\n
+
+Wrist and finger monitors are not recommended because they yield less reliable readings.
+Choose a monitor that has been validated. If you are unsure, ask your doctor or pharmacist for advice.
+When selecting a blood pressure monitor for a senior, pregnant woman or child, make sure it is validated for these conditions.
+Make sure the cuff fits — measure around your upper arm and choose a monitor that comes with the correct size cuff.\n\n
+
+
+
+<b>Blood pressure categories</b>
+The five blood pressure ranges as recognized by the American Heart Association are:
+
+<b>Normal blood pressure</b>\n\n
+Congratulations on having blood pressure numbers that are within the normal
+        (optimal) range of less than 120/80 mm Hg. Keep up the good work and
+        stick with heart-healthy habits like following a balanced diet and getting regular exercise.\n\n
+
+<b>Prehypertension (early stage high blood pressure)</b>\n\n
+Prehypertension is when blood pressure is consistently ranging from 120-139/80-89 mm Hg.
+        People with prehypertension are likely to develop high blood pressure unless steps are taken to control it.\n\n
+
+<b>Hypertension Stage 1</b>\n\n
+Hypertension Stage 1 is when blood pressure is consistently
+        ranging from 140-159/90-99 mm Hg.
+        At this stage of high blood pressure,
+        doctors are likely to prescribe lifestyle
+        changes and may consider adding blood pressure medication.\n\n
+
+<b>Hypertension Stage 2</b>\n\n
+Hypertension Stage 2 is when blood pressure is
+        consistently ranging at levels greater than 160/100 mm Hg.
+        At this stage of high blood pressure, doctors are likely to prescribe a
+        combination of blood pressure medications along with lifestyle changes.\n\n
+
+<b>Hypertensive crisis</b>\n\n
+
+This is when high blood pressure requires emergency medical attention.
+        If your blood pressure is higher than 180/110 mm Hg and you are NOT
+        experiencing symptoms such as chest pain, shortness of breath, back pain,
+        numbness/weakness, changes in vision or difficulty speaking, wait about five
+        minutes and take it again. If the reading is still at or above that level,
+        you should CALL 9-1-1 and get help immediately. Learn more about the two
+        types of hypertensive crises.\n\n
+
+    </string>
+
+
+
+    <string name="unit">Unit</string>
+    <string name="voice">Voice</string>
+    <string name="bp_gen_knowledge_title">BP General Knowledge</string>
+    <string name="bp_user_guide">BP User\'s Guide</string>
+
+
+
+    <string name="bpl_bump">Bpl Bpump</string>
+
+    <string name="welcome_status">Hi,Abh</string>
+
+    <string name="user_guide_details">Following is the way how to use Bpl Bp Monitor \n\n
+
+   <br>1.Make sure cuff tube is securely connected to your blood pressure monitor.</br> \n\n
+
+        <b>1.Make sure cuff tube is securely connected to your blood pressure monitor.</b> \n\n
+
+
+        <b>2. Wrap Cuff around left arm and on elbow. Align artery mark and tubing to brachial artery
+            (inner arm). Cuff fits most biceps 8.7-16.7</b> \n\n
+
+
+        <b>3. Cuff should be snug but not too tight.You should be able to fit two fingers between cuff
+        and an arm </b> \n\n
+
+
+          <b>4. Push the power button and remain still during your measurement.
+        and an arm </b> \n\n
+
+
+
+
+        For optimal result with your Bpl Blood Pressure Monitor :  \n\n
+
+
+
+
+    a.) Avoid eating, drinking alcohol, smoking, exercising, and bathing for
+30 minutes prior to taking a measurement. Rest for at least 15
+minutes prior to taking the measurement.\n\n
+
+b.) Stress raises blood pressure. Avoid taking measurements during
+stressful times. \n\n
+
+
+c.) Measurements should be taken in a quiet place. \n\n
+
+d.) Remove tight-fitting clothing from your arm.\n\n
+
+e.) Sit on a chair with your feet flat on the floor. Rest your arm on
+a table so that the cuff is at the same level as your heart.\n\n
+
+f.) Remain still and do not talk during the measurement.\n
+
+g.) Keep a record of your blood pressure and pulse readings for your
+physician. A single measurement may not provide an accurate
+indication of your true blood pressure. You need to take and record
+several readings over a period of time. Try to measure your blood
+pressure at about the same time each day for consistency\n\n\n
+
+
+
+
+
+
+
+
+    </string>
+
+
+    <string name="bp_statement">Your systolic pressure is High.
+    According to WHO your pressure is high.
+
+    This is when high blood pressure requires emergency medical attention.
+        If your blood pressure is higher than 180/110 mm Hg and you are NOT
+        experiencing symptoms such as chest pain, shortness of breath, back pain,
+        numbness/weakness, changes in vision or difficulty speaking, wait about five
+        minutes and take it again. If the reading is still at or above that level,
+        you should CALL 9-1-1 and get help immediately. Learn more about the two
+        types of hypertensive crises.\n\n
+
+    </string>
+
+
+    <string name="sound_desirable">According to world helath Organization , the blood pressure level
+    of your body is desirable</string>
+
+     <string name="sound_normal">According to world helath Organization , the blood pressure level
+    of your body is normal</string>
+
+     <string name="sound_pre_hyper">According to world helath Organization , the blood pressure level
+    of your body is pre hypertension</string>
+     <string name="sound_stage1_hyper">According to world helath Organization , the blood pressure level
+    of your body is stage 1 hypertension</string>
+
+     <string name="sound_stage2_hyper">According to world helath Organization , the blood pressure level
+    of your body is stage 2 hypertension</string>
+
+     <string name="sound_hypersensitive">According to world helath Organization , the blood pressure level
+    of your body is hypersensitive</string>
+
+    <string name="sound_hypertension">According to world helath Organization , the blood pressure level
+    of your body is hypertension</string>
+
+
+    
+    <string name="severe_hypertension">Grade 3 Severe Hypertension</string>
+    <string name="moderate_hypertension">Grade 2 Moderate Hypertension</string>
+    <string name="mild_hypertension">Grade 1 Mild Hypertension</string>
+    <string name="high_normal">High Normal</string>
+    <string name="optimal">Optimal</string>
+    <string name="low">Low</string>
+    <string name="sys_by_dia">(SYS / DIA)</string>
+    <string name="action_delete">delete the records</string>
+    <string name="delete_rec">Do you want to delete the record ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="del_rec">Delete Record</string>
+    <string name="user_help">User\'s Help</string>
+    <string name="record">Records</string>
+
+
+    <string name="desirable">Desirable</string>
+    <string name="stage1_hyper">Stage 1 Hypertension</string>
+    <string name="stage2_hyper">Stage 2 Hypertension</string>
+    <string name="hypersensitive">Hypersensitive Crisis</string>
+
+
+    <string name="measurement_going">Please wait while measurement is going ON</string>
+    <string name="blood_press">Blood Pressure</string>
+    <string name="measuring">Measuring ...</string>
+    <string name="error">Error</string>
+
+    <string name="find_device">Find Device</string>
+
+
+
+</resources>

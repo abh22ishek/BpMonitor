@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+
+        android:id="@+id/tabsLayout"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:text="@string/chart"
+            android:layout_weight="1"
+            android:id="@+id/chart"
+            android:background="@drawable/button_pressed"
+            android:textColor="@color/white"
+            android:layout_height="40dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:text="@string/data"
+            android:layout_weight="1"
+            android:id="@+id/data"
+            android:background="@drawable/button_pressed"
+            android:textColor="@color/white"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/pager"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tabsLayout"
+
+        />
+
+</RelativeLayout>

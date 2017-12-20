@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray_bg"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_margin="5dp"
+        android:id="@+id/second"
+        android:layout_below="@+id/first"
+        android:background="@drawable/whiteboard_bg"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:layout_height="40dp">
+
+        <com.bpl.customfonts.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            app:fontname="centralSansXBold"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:id="@+id/bpKnowledge"
+            android:textColor="#808080"
+            android:gravity="center"
+            android:text="@string/bp_gen_knowledge_title" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="5dp"
+        android:background="@color/separator"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+
+        android:gravity="center_vertical"
+        android:layout_height="40dp">
+
+
+        <com.bpl.customfonts.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/grey_text_color"
+            app:fontname="centralSansXBold"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:id="@+id/bpUserGuide"
+            android:gravity="center"
+            android:text="@string/bp_user_guide" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+    </RelativeLayout>

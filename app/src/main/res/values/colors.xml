@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="indigo">#1A237E</color>
+    <color name="gray_bg">#F5F5F5</color>
+    <color name="grey_text_color">#808080</color>
+    <color name="separator">#BDBDBD</color>
+
+    <color name="window_background_bottom">#0066BB</color>
+    <color name="backgroundSplash">#0066BB</color>
+
+
+    <color name="bg_start_color">#242D45</color>
+    <color name="bg_end_color">#212637</color>
+    <color name="bg_centre_color">#4E69AC</color>
+    <color name="bg_solid_color">#4E69AC</color>
+
+    <color name="severe_hypertension_color">#9A0E07</color>
+    <color name="moderate_hypertension_color">#E41710</color>
+    <color name="mild_hypertension_color">#F3924F</color>
+    <color name="high_normal">#FBED17</color>
+    <color name="normal">#40AF59</color>
+    <color name="optimal">#41c1ED</color>
+    <color name="low">#6E8BC7</color>
+    <color name="text_color">#7CBC50</color>
+    <color name="button_bg_color">#4688C7</color>
+    <color name="light_grey">#F6E4C9</color>
+    <color name="transparent">#00FFFFFF</color>
+    
+    
+</resources>

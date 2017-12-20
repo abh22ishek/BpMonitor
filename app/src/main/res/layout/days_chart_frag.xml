@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.bpl.customfonts.CustomTextView
+        android:layout_width="match_parent"
+        android:id="@+id/bpChartTitle"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="BloodPressure(mmHg Vs Time)"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:fillViewport="true"
+        android:id="@+id/Hz1"
+        android:layout_below="@+id/bpChartTitle"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:id="@+id/HeartRate"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+
+
+            <customviews.CustomBPDayChart
+                android:layout_width="match_parent"
+                android:id="@+id/custom_day_chart"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content"
+        android:background="@color/window_background_bottom"
+        android:layout_below="@+id/Hz1"
+        android:layout_alignParentStart="true"
+        android:padding="3dp"
+        android:layout_marginTop="5dp"
+        tools:ignore="ObsoleteLayoutParam">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:id="@+id/l1"
+            android:scrollbars="none"
+            android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/l12"
+            android:paddingRight="5dp"
+            android:visibility="visible"
+            android:paddingLeft="5dp"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date"
+                android:textColor="@color/text_color"
+                android:layout_marginStart="5dp"
+                android:id="@+id/dateText"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:textColor="@color/text_color"
+                android:layout_marginStart="5dp"
+                android:id="@+id/date" />
+
+
+            <Button
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@color/text_color"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/normal"
+                android:textSize="10sp"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <Button
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="8dp"
+                android:background="@color/high_normal"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/pre_hypertension"
+                android:textSize="10sp"
+                android:layout_height="wrap_content" />
+
+
+
+            <Button
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="8dp"
+                android:background="@color/severe_hypertension_color"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/hypertension"
+                android:textSize="10sp"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+        </HorizontalScrollView>
+
+
+
+
+    </RelativeLayout>
+    <com.bpl.customfonts.CustomTextView
+        android:layout_width="match_parent"
+        android:id="@+id/pulseTitle"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_below="@+id/content"
+        android:text="PulseperMin Vs Time"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:fillViewport="true"
+        android:layout_below="@+id/pulseTitle"
+        android:id="@+id/scrollV"
+        android:scrollbars="none"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:fillViewport="true"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+
+            >
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spo2"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_below="@+id/content"
+                >
+
+
+                <customviews.PulseDayChart
+                    android:layout_width="match_parent"
+                    android:id="@+id/pulse_day_chart"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
